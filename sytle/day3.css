@@ -1,0 +1,360 @@
+.car_body{
+  background-color: #f8f9fa;
+}
+
+nav{
+  width: 82%;
+  margin: 50px auto;
+}
+
+.cars_nav{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+.cars_nav_logo{
+  color: white;
+  font-family: t1;
+  font-size: 14px;
+}
+
+.cars_nav_logo span{
+  color: #01d28e;
+}
+
+.cars_nav_links{
+  display: flex;
+  gap: 45px;
+}
+
+.cars_nav_links a{
+  color: white;
+  font-family: t5;
+  font-size: 14px;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+}
+
+.cars_nav_links a:hover{
+  color: #08cc8f;
+}
+
+.cars_first_image{
+  background-image: url("../image/image.img/image.img/about\ \(1\).jpg");
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  align-items: center;
+}
+
+.cars_first_image img{
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.cars_overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 658px;
+  background-color: rgba(0, 0, 0, 0.295);
+}
+
+.cars_first_image_text{
+  color: white;
+  width: 82%;
+  margin: 400px auto;
+}
+
+.cars_first_image_text h1{
+  font-family: t5;
+  font-size: 45px;
+  margin-bottom: 12px;
+}
+
+.cars_first_image_text p{
+  font-family: t5;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.u_choose a{
+  font-family: t5;
+  font-size: 15px;
+  color: #bcbebe;
+  text-decoration: none;
+}
+
+.the_price{
+  margin-bottom: 170px;
+}
+
+.price_main{
+  width: 81%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding-top: 60px;
+}
+
+.price_main_left{
+  width: 40%;
+}
+
+.price_one_inner{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.price_one{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;  
+  width: 100%;
+}
+
+.tramp{
+  margin-top: 30px;
+}
+
+.price_one img{
+  width: 180px;
+  height: 110px;
+  margin-bottom: 30px;
+}
+
+.price_one_text h3{
+  font-family: t4;
+  font-weight: 300;
+  color: #3b3b3b;
+}
+
+.price_one_text p{
+  font-family: t4;
+}
+
+.price_rating{
+  display: flex;
+}
+
+.rating_stars img{
+  width: 20px;
+  height: 20px;
+}
+
+.per_rates{
+  display: flex;
+  gap: 1px;
+}
+
+.price_main_right{
+  margin-top: -140px;
+  width: 60%;
+}
+
+.pers{
+  font-family: t4;
+  font-size: 19px;
+  width: 230px;
+  height: 110px;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+}
+
+.per_hour{
+  background-color: #1089ff;
+}
+
+.per_day{
+  background-color: #343a40;
+}
+
+.Leasing{
+  background-color: black;
+}
+
+.ratemain{
+  display: flex;
+  gap: 1px;
+  margin-bottom: 0.5px;
+}
+
+.cash{
+  width: 230px;
+  height: 169.5px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.cash h3{
+  font-family: t5;
+  font-weight: 500;
+  color: #959595;
+  margin-bottom: 15px;
+}
+
+.cash span{
+  font-size: 25px;
+  color: #1089ff;
+}
+
+.cash p{
+  font-family: t4;
+  font-weight: 300;
+  color: #474a4e;
+}
+
+.perhour{
+  background-color: #f2f2f2;
+  margin-bottom: 1px;
+}
+
+.price_bar{
+  width: 81%;
+  height: 20px;
+  margin: auto;
+  background-color: #f1f1f1;
+  margin-bottom: 25px;
+}
+footer{
+  width: 100%;
+  background-color:black;
+  position: absolute;
+}
+
+.footer{
+  width: 83.5%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  margin-bottom: 70px;
+}
+
+.bid span img{
+  width: 20px;
+  height: 20px;
+  margin-bottom: -10px;
+}
+
+.bid{
+  display: flex;
+}
+
+.footer_right{
+  display: flex;
+  width: 68%;
+  justify-content: space-between;
+}
+
+.footer_content{
+  width: 22%;
+}
+
+.footer_tent{
+  width: 30%;
+}
+
+.locate p{
+  padding-left: 15px;
+  color: #b3b3b3;
+  font-family: t5;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer_logo{
+  color: white;
+  font-family: t1;
+  font-size: 10px;
+}
+
+.footer_logo span{
+  color: #01d28e;
+}
+
+footer p{
+  color: #b3b3b3;
+  font-family: t6;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.fca{
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-family: t5;
+  font-size: 18px;
+}
+
+.footer h2{
+  color: white;
+  font-family: t5;
+  font-size: 20px;
+  letter-spacing:1px;
+  margin-bottom: 40px;
+}
+
+.footer li{
+  color: #b3b3b3;
+  font-family: t5;
+  font-size: 18px;
+  margin-bottom: 16px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.ficon{
+  color: white  ;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 14px;
+}
+
+.little p{
+  color: #fcfcfc;
+  font-family: t5;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.social_pages{
+  display: flex;
+  justify-content: space-between;
+  width:180px;
+  align-items: center;
+}
+
+.ai{
+  background-color: #0d0d0d; 
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer_bottom p{
+  text-align: center;
+  margin-bottom: 130px;
+  color: #b3b3b3;
+  font-family: t5;
+  font-size: 18px;
+}
+
+.footer_bottom span img{
+  margin-bottom: -3px;
+  width: 20px;
+  height: 20px;
+}
